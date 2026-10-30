@@ -5,15 +5,15 @@ from PIL import Image, ImageTk
 #main Window
 root = tk.Tk()
 root.title("Photo Slideshow Album")
-root.geometry("900x900")
+root.geometry("500x500")
 
 # list of Image path
 image_paths = [
-        "Images/Img1.jpg",
-    "Images/Img2.jpg",
-    "Images/Img3.jpg",
-    "Images/Img4.jpg",
-    "Images/Img5.jpg"
+        "Images/Img1.jpeg",
+    "Images/Img2.jpeg",
+    "Images/Img3.jpeg",
+    "Images/Img4.jpeg",
+    "Images/Img5.jpeg"
 ]
 
 image_size=(700,700)
